@@ -11,8 +11,8 @@ import static org.testng.Assert.assertTrue;
 
 public class PastebinTest {
 
-    public WebDriver driver;
-    public PastebinCreatedPastePage createdPastePage;
+    WebDriver driver;
+    PastebinCreatedPastePage createdPastePage;
 
     @BeforeMethod
     public void settingUpBrowser() {

@@ -20,7 +20,7 @@ public class PastebinCreatedPastePage extends Page {
     WebElement codeArea;
 
     @Override
-    public Page openPage() {
+    public PastebinCreatedPastePage openPage() {
         throw new UnsupportedOperationException
                 ("That method does not make any sense on page with just created paste!!!");
     }
